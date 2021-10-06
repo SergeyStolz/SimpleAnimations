@@ -4,7 +4,6 @@
 //
 //  Created by mac on 20.09.2021.
 //
-
 import UIKit
 
 class AnimationViewController: UIViewController {
@@ -75,6 +74,7 @@ class AnimationViewController: UIViewController {
         }
     }
 }
+
 extension CGFloat {
     static func random() -> CGFloat {
         return CGFloat(arc4random()) / CGFloat(UInt32.max)
